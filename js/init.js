@@ -3,22 +3,27 @@ soundManager.setup({
 	onready: function() {
 		var dunc_mp3_1 = soundManager.createSound({
 			url: 'mp3/dunc1.mp3'
+			autoLoad:true
 		});
 
 		var dunc_mp3_2 = soundManager.createSound({
 			url: 'mp3/dunc2.mp3'
+			autoLoad:true
 		});
 
 		var dunc_mp3_3 = soundManager.createSound({
 			url: 'mp3/dunc3.mp3'
+			autoLoad:true
 		});
 
 		var dunc_mp3_4 = soundManager.createSound({
 			url: 'mp3/dunc4.mp3'
+			autoLoad:true
 		});
 		
 		var dunc_mp3_5 = soundManager.createSound({
 			url: 'mp3/dunc5.mp3'
+			autoLoad:true
 		});
 
 		$("#comeonbtn").click(function() {
